@@ -1,0 +1,30 @@
+.chatroom{
+    width: 62.7%;
+    height: 90vh;
+    background-color: rgb(152, 251, 3);
+    float: right;
+    overflow-y:auto ;
+}
+.inputs{
+    background-color: rgb(19, 218, 19);
+    position: sticky;
+    top: 90%;
+}
+.inputs form{
+    width: 100%;
+    height: 10vh;
+}
+.inputs form input{
+    width: 70%;
+    height: 4vh;
+    padding: 1vh;
+    border-radius: 25px;
+    border: none;
+    margin-right:1vh ;
+}
+.inputs form button{
+    width: 6.5vh;
+    height: 6.5vh;
+    border-radius: 50%;
+    border: none;
+}

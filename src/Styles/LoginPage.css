@@ -1,0 +1,90 @@
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    background-image: linear-gradient(white,rgba(41, 244, 23, 0.509));
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginContainer{
+    width: 30vw;
+    height: 75vh;
+    /* background-image: linear-gradient(rgba(128, 128, 128, 0.174),rgba(21, 214, 21, 0.831)); */
+    background-color: rgb(19, 218, 19);
+    border-radius: 12%;
+    border: 1.5px solid rgba(0, 0, 0, 0.258);
+    box-shadow: 1vh 1vh 1vh rgba(138, 113, 113, 0.612);
+}
+.head{
+    height: 20vh;
+}
+.head div{
+    height: 12vh;
+    width: 45%;
+    animation: logo 3s infinite;
+    position:relative;
+    border: 3px solid white;
+    border-radius: 30%;
+    animation-timing-function: ease-in-out;
+}
+.head p{
+    font-size: 1.4em;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head img{
+    width: 60px;
+    height: 60px;
+}
+
+.form{
+    height: 53vh;
+    width: 100%;
+    margin:auto;
+}
+.form form{
+    width: 100%;
+    flex-direction: column;
+}
+.form form input{
+    width: 80%;
+    font-size: 1.3em;
+    padding: 2vh;
+    border-radius: 10px;
+    margin: 2vh 0;
+}
+.form form button{
+    width: 27%;
+    font-size: 1.3em;
+    padding: 2vh;
+    border-radius: 20px;
+    margin: 1.7vh 0;
+    color: green;
+    font-weight: bold;
+    border: 3px solid green;
+}
+.form form button:hover{
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+
+
+
+
+@keyframes logo{
+    0%{
+        top: 26%;
+    }50%{
+        top: 14%;
+    }100%{
+        top: 26%;
+    }
+}

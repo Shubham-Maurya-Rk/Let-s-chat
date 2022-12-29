@@ -1,0 +1,54 @@
+.usersCont{
+    display: inline-block;
+    height: 90vh;
+    width: 37%;
+    background-color: greenyellow;
+    overflow-y: auto;
+    border-right: 3px solid white;
+}
+.user_people{
+    padding: 1vh;
+    width: 96.4%;
+    height: 10%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+
+}
+.user_people:hover{
+    border: 2px solid green;
+    border-radius: 15px;
+}
+.user_people img{
+    border:1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-right: 3vh;
+}
+.user_people p{
+    font-size: 1.3em;
+}
+.Head{
+    padding: 1vh;
+    width: 96.4%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.Head p{
+    text-shadow: 1.5px 1.5px rgb(98, 88, 88);
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.Head div{
+    margin: 1vh ;
+    width: 6vh;
+    Height: 6vh;
+    border-radius: 50%;
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, 0.596);
+    box-shadow: 2px 2px rgb(106, 93, 93);
+}
