@@ -1,17 +1,25 @@
+:root{
+    --chatroom-size:62.7%;
+}
 .chatroom{
-    width: 62.7%;
-    height: 90vh;
+    width: var(--chatroom-size);
+    height: 81vh;
     background-color: rgb(152, 251, 3);
     float: right;
     overflow-y:auto ;
 }
 .inputs{
     background-color: rgb(19, 218, 19);
-    position: sticky;
-    top: 90%;
+    position: fixed;
+    /* float: right; */
+    clear: both;
+    bottom: 0;
+    /* right: 0; */
+    height: 9vh;
+    width: var(--chatroom-size);
 }
 .inputs form{
-    width: 100%;
+    /* width: 100%; */
     height: 10vh;
 }
 .inputs form input{
@@ -27,4 +35,49 @@
     height: 6.5vh;
     border-radius: 50%;
     border: none;
+}
+.join-left{
+    border-radius: 20px;
+    padding: 1vh;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    border: 0.1px solid grey;
+    color: green;
+    margin: auto;
+    clear: both;
+}
+.receive{
+    float: left;
+    border-radius: 0 20px 20px 0;
+}
+.msg{
+    color: white;
+    max-width: 60%;
+    clear: both;
+    margin: 0.5vh 1vh; 
+    padding: 1vh;
+    background-color: green;
+}
+.receive b{
+    color:rgb(240, 144, 1);
+}
+.sent{
+    float: right;
+    border-radius: 20px 0 0 20px;
+}
+.sent b{
+    color: rgb(0,20,255,1);
+}
+@media screen and (max-width:800px){
+    .chatroom{
+        width: 100%;
+        height: 81vh;
+    }
+    .join-left{
+        width: 50%;
+    }
+    .inputs{
+        width: 100%;
+    }
 }
