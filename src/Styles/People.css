@@ -81,5 +81,11 @@
         display: none;
         animation: open 0.5s 1;
     }
+    .Head{
+        height: 1.5%;
+    }
+    .user_people{
+        height: 1.5%;
+    }
 
 }
